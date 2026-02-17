@@ -1,30 +1,33 @@
-<!DOCTYPE html>
-<html lang="ca">
-<head>
-    <meta charset="UTF-8">
-    <title>Benvinguts al Món Submarí!</title>
-    <link rel="stylesheet" href="css/estils.css">
-</head>
-<body class="home-ocean">
+<!DOCTYPE html> # Define que este documento es una página web moderna (HTML5)
+<html lang="ca"> # Apertura de la web e indica que el idioma es catalán
+<head> # Sección "invisible" con configuración para el navegador
+    <meta charset="UTF-8"> # Permite que se lean bien tildes, la "ç" y los emojis
+    <title>Benvinguts al Món Submarí!</title> # El nombre que aparece arriba en la pestaña
+    <link rel="stylesheet" href="css/estils.css"> # Conecta la web con el archivo de colores y diseño
+</head> # Cierre de la configuración
+<body class="home-ocean"> # Comienzo de la parte visible, con una "clase" para el fondo marino
 
-    <header>
+    <header> # Cabecera de la página (la parte de arriba)
+        # Inserta la foto de la orca. 'src' es la ruta y 'alt' es la descripción técnica
         <img src="imatges/orca.jpg" class="capcalera-infantil" alt="Orcas divertides">
-    </header>
+    </header> # Cierre de la cabecera
 
-    <main class="caixa-benvinguda">
-        <h1 class="titol-animat">🌊 Benvinguts a l'Oceà! 🌊</h1>
-        <p class="text-infantil">Explora el món de les orques i els seus amics de sota el mar. Tria una bombolla per començar!</p>
+    <main class="caixa-benvinguda"> # Bloque de contenido principal de la web
+        <h1 class="titol-animat">🌊 Benvinguts a l'Oceà! 🌊</h1> # Título más importante (H1)
+        <p class="text-infantil">Explora el món de les orques...!</p> # Un párrafo de texto normal
         
-        <div class="contenidor-botons">
-            <a href="pagines/enllacos.html" class="boto-burbuja">Enllaços 🦀</a>
-            <a href="pagines/taules.html" class="boto-burbuja">Taules 🐠</a>
-            <a href="pagines/javascript.html" class="boto-burbuja">Sorpresa! 🐙</a>
-        </div>
-    </main>
+        <div class="contenidor-botons"> # Caja invisible para agrupar y ordenar los botones
+            # Los <a> son enlaces. 'href' dice a qué página ir cuando haces clic:
+            <a href="pagines/enllacos.html" class="boto-burbuja">Enllaços 🦀</a> # Botón para enlaces
+            <a href="pagines/taules.html" class="boto-burbuja">Taules 🐠</a> # Botón para tablas
+            <a href="pagines/javascript.html" class="boto-burbuja">Sorpresa! 🐙</a> # Botón para extras
+        </div> # Cierre de la caja de botones
+    </main> # Cierre del contenido principal
 
-    <div class="burbujas-decoracion">
+    <div class="burbujas-decoracion"> # Contenedor para elementos decorativos
+        # Estos 4 'span' son etiquetas vacías que se usan para crear las burbujas con CSS
         <span></span><span></span><span></span><span></span>
     </div>
 
-</body>
-</html>
+</body> # Cierre de la parte visible
+</html> # Final definitivo del documento
