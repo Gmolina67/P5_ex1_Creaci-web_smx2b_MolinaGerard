@@ -1,0 +1,111 @@
+/* --- ESTILO ONE PIECE TOTAL --- */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&display=swap');
+
+/* Fondo general de pergamino */
+body {
+    background-color: #f4e1c1;
+    background-image: url('https://www.transparenttextures.com/patterns/old-map.png'); 
+    font-family: 'Special Elite', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3e2723;
+}
+
+/* Imagen de cabecera 800x150 */
+header img, .capcalera, .capcalera-infantil {
+    width: 800px;
+    height: 150px;
+    object-fit: cover;
+    border: 8px solid #5d4037; /* Marco de madera */
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    margin-top: 20px;
+}
+
+/* Navegación: Botones estilo Luffy */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+nav ul li a {
+    background: #d32f2f; /* Rojo */
+    color: #fff176 !important; /* Amarillo sombrero */
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.1rem;
+    border: 3px solid #fbc02d;
+    box-shadow: 4px 4px 0px #5d4037;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    transform: translateY(-3px);
+    background: #fbc02d;
+    color: #b71c1c !important;
+}
+
+/* El contenedor principal (Cartel de recompensa) */
+main, .contenedor, section#contenido {
+    background: #fff9c4;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    width: 80%;
+    max-width: 800px;
+    padding: 30px;
+    border: 2px solid #bcaaa4;
+    box-shadow: 15px 15px 0px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: 'Permanent Marker', cursive;
+    color: #b71c1c;
+    text-align: center;
+}
+
+/* Tabla estilo Bitácora de Nami */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fffde7;
+    margin: 20px 0;
+}
+
+th {
+    background: #5d4037;
+    color: #ffeb3b;
+    padding: 10px;
+    border: 2px solid #3e2723;
+    font-family: 'Permanent Marker', cursive;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #bcaaa4;
+    text-align: center;
+}
+
+/* Estilo para los párrafos de Enllaços */
+p, .caixa-text {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border-left: 5px solid #d32f2f;
+    margin: 10px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Enlaces internos (Top, Bottom...) */
+a {
+    color: #b71c1c;
+    font-weight: bold;
+}
