@@ -1,111 +1,111 @@
 /* --- ESTILO ONE PIECE TOTAL --- */
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&display=swap'); /* # Importa fuentes de Google: una de "marcador" y otra de "máquina de escribir" */
 
 /* Fondo general de pergamino */
 body {
-    background-color: #f4e1c1;
-    background-image: url('https://www.transparenttextures.com/patterns/old-map.png'); 
-    font-family: 'Special Elite', serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #3e2723;
+    background-color: #f4e1c1; /* # Color crema base para el fondo */
+    background-image: url('https://www.transparenttextures.com/patterns/old-map.png'); /* # Imagen de textura de mapa antiguo */
+    font-family: 'Special Elite', serif; /* # Fuente estilo máquina de escribir antigua */
+    margin: 0; /* # Elimina márgenes del borde de la ventana */
+    padding: 0; /* # Elimina rellenos del borde de la ventana */
+    display: flex; /* # Activa caja flexible para alinear contenido */
+    flex-direction: column; /* # Alinea los elementos en vertical */
+    align-items: center; /* # Centra el contenido horizontalmente */
+    color: #3e2723; /* # Color de texto marrón oscuro */
 }
 
 /* Imagen de cabecera 800x150 */
 header img, .capcalera, .capcalera-infantil {
-    width: 800px;
-    height: 150px;
-    object-fit: cover;
-    border: 8px solid #5d4037; /* Marco de madera */
-    border-radius: 5px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
-    margin-top: 20px;
+    width: 800px;                               /* # Ancho fijo de la cabecera */
+    height: 150px;                              /* # Alto fijo de la cabecera */
+    object-fit: cover;                          /* # Ajusta la imagen al marco sin deformarla */
+    border: 8px solid #5d4037; /* # Marco grueso color madera */
+    border-radius: 5px; /* # Redondeado suave de las esquinas */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4); /* # Sombra para dar efecto de relieve */
+    margin-top: 20px; /* # Separación superior */
 }
 
 /* Navegación: Botones estilo Luffy */
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 15px;
-    margin: 20px 0;
+    list-style: none; /* # Quita los puntos de la lista */
+    padding: 0; /* # Resetea el padding */
+    display: flex; /* # Pone los botones uno al lado del otro */
+    gap: 15px; /* # Espacio entre botones */
+    margin: 20px 0; /* # Margen arriba y abajo del menú */
 }
 
 nav ul li a {
-    background: #d32f2f; /* Rojo */
-    color: #fff176 !important; /* Amarillo sombrero */
-    text-decoration: none;
-    padding: 12px 25px;
-    border-radius: 4px;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 1.1rem;
-    border: 3px solid #fbc02d;
-    box-shadow: 4px 4px 0px #5d4037;
-    display: inline-block;
-    transition: 0.2s;
+    background: #d32f2f; /* # Fondo rojo intenso */
+    color: #fff176 !important; /* # Texto amarillo (sombrero de Luffy) */
+    text-decoration: none; /* # Quita el subrayado del enlace */
+    padding: 12px 25px; /* # Tamaño interno del botón */
+    border-radius: 4px; /* # Esquinas del botón */
+    font-family: 'Permanent Marker', cursive; /* # Fuente estilo rotulador/pirata */
+    font-size: 1.1rem; /* # Tamaño de fuente */
+    border: 3px solid #fbc02d; /* # Borde amarillo fuerte */
+    box-shadow: 4px 4px 0px #5d4037; /* # Sombra sólida tipo cómic */
+    display: inline-block; /* # Permite aplicar dimensiones al enlace */
+    transition: 0.2s; /* # Suaviza la animación de hover */
 }
 
 nav ul li a:hover {
-    transform: translateY(-3px);
-    background: #fbc02d;
-    color: #b71c1c !important;
+    transform: translateY(-3px); /* # Levanta el botón al pasar el ratón */
+    background: #fbc02d; /* # Cambia fondo a amarillo en hover */
+    color: #b71c1c !important; /* # Cambia texto a rojo en hover */
 }
 
 /* El contenedor principal (Cartel de recompensa) */
 main, .contenedor, section#contenido {
-    background: #fff9c4;
-    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
-    width: 80%;
-    max-width: 800px;
-    padding: 30px;
-    border: 2px solid #bcaaa4;
-    box-shadow: 15px 15px 0px rgba(0,0,0,0.1);
-    margin: 20px 0;
+    background: #fff9c4; /* # Fondo amarillo papel */
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* # Textura de fibras de papel */
+    width: 80%; /* # Ancho relativo al navegador */
+    max-width: 800px; /* # Tope máximo de ancho */
+    padding: 30px; /* # Espacio entre borde y texto */
+    border: 2px solid #bcaaa4; /* # Borde color cartón */
+    box-shadow: 15px 15px 0px rgba(0,0,0,0.1); /* # Sombra rígida de cartel pegado */
+    margin: 20px 0; /* # Margen vertical */
 }
 
 /* Títulos */
 h1, h2, h3 {
-    font-family: 'Permanent Marker', cursive;
-    color: #b71c1c;
-    text-align: center;
+    font-family: 'Permanent Marker', cursive; /* # Fuente de marcador para títulos */
+    color: #b71c1c; /* # Color rojo oscuro */
+    text-align: center; /* # Centrado de texto */
 }
 
 /* Tabla estilo Bitácora de Nami */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #fffde7;
-    margin: 20px 0;
+    width: 100%; /* # Tabla a ancho completo */
+    border-collapse: collapse; /* # Fusiona bordes de celdas */
+    background: #fffde7; /* # Fondo crema claro para la tabla */
+    margin: 20px 0; /* # Margen vertical */
 }
 
 th {
-    background: #5d4037;
-    color: #ffeb3b;
-    padding: 10px;
-    border: 2px solid #3e2723;
-    font-family: 'Permanent Marker', cursive;
+    background: #5d4037; /* # Fondo marrón para encabezados */
+    color: #ffeb3b; /*  Texto amarillo para encabezados */
+    padding: 10px; /*  Espacio en celdas de cabecera */
+    border: 2px solid #3e2723; /*  Bordes oscuros */
+    font-family: 'Permanent Marker', cursive; /* # Fuente pirata en cabeceras */
 }
 
 td {
-    padding: 10px;
-    border: 1px solid #bcaaa4;
-    text-align: center;
+    padding: 10px; /*  Espacio en celdas de datos */
+    border: 1px solid #bcaaa4; /* # Borde suave entre datos */
+    text-align: center; /* # Centra el contenido de la tabla */
 }
 
 /* Estilo para los párrafos de Enllaços */
 p, .caixa-text {
-    background: rgba(255, 255, 255, 0.5);
-    padding: 15px;
-    border-left: 5px solid #d32f2f;
-    margin: 10px 0;
-    border-radius: 0 10px 10px 0;
+    background: rgba(255, 255, 255, 0.5); /*  Fondo blanco con transparencia */
+    padding: 15px; /* # Espacio interno del párrafo */
+    border-left: 5px solid #d32f2f; /*  Marca roja lateral */
+    margin: 10px 0; /* # Margen entre párrafos */
+    border-radius: 0 10px 10px 0; /*  Curva solo en el lado derecho */
 }
 
-/* Enlaces internos (Top, Bottom...) */
+/* Enlaces internos */
 a {
-    color: #b71c1c;
-    font-weight: bold;
+    color: #b71c1c; /* # Color de enlace rojo */
+    font-weight: bold; /* # Texto en negrita */
 }

@@ -1,33 +1,49 @@
-<!DOCTYPE html> # Define que este documento es una página web moderna (HTML5)
-<html lang="ca"> # Apertura de la web e indica que el idioma es catalán
-<head> # Sección "invisible" con configuración para el navegador
-    <meta charset="UTF-8"> # Permite que se lean bien tildes, la "ç" y los emojis
-    <title>Benvinguts al Món Submarí!</title> # El nombre que aparece arriba en la pestaña
-    <link rel="stylesheet" href="css/estils.css"> # Conecta la web con el archivo de colores y diseño
-</head> # Cierre de la configuración
-<body class="home-ocean"> # Comienzo de la parte visible, con una "clase" para el fondo marino
+<!DOCTYPE html> <!-- Declara que este documento es HTML5 -->
 
-    <header> # Cabecera de la página (la parte de arriba)
-        # Inserta la foto de la orca. 'src' es la ruta y 'alt' es la descripción técnica
-        <img src="imatges/orca.jpg" class="capcalera-infantil" alt="Orcas divertides">
-    </header> # Cierre de la cabecera
+<html lang="ca"> <!-- Empieza el documento HTML y establece el idioma a catalán -->
 
-    <main class="caixa-benvinguda"> # Bloque de contenido principal de la web
-        <h1 class="titol-animat">🌊 Benvinguts a l'Oceà! 🌊</h1> # Título más importante (H1)
-        <p class="text-infantil">Explora el món de les orques...!</p> # Un párrafo de texto normal
-        
-        <div class="contenidor-botons"> # Caja invisible para agrupar y ordenar los botones
-            # Los <a> son enlaces. 'href' dice a qué página ir cuando haces clic:
-            <a href="pagines/enllacos.html" class="boto-burbuja">Enllaços 🦀</a> # Botón para enlaces
-            <a href="pagines/taules.html" class="boto-burbuja">Taules 🐠</a> # Botón para tablas
-            <a href="pagines/javascript.html" class="boto-burbuja">Sorpresa! 🐙</a> # Botón para extras
-        </div> # Cierre de la caja de botones
-    </main> # Cierre del contenido principal
+<head> <!-- Cabecera del documento, contiene metadatos y enlaces a recursos -->
 
-    <div class="burbujas-decoracion"> # Contenedor para elementos decorativos
-        # Estos 4 'span' son etiquetas vacías que se usan para crear las burbujas con CSS
-        <span></span><span></span><span></span><span></span>
-    </div>
+<meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
 
-</body> # Cierre de la parte visible
-</html> # Final definitivo del documento
+<title>Benvinguts al Món Submarí!</title> <!-- Título que aparecerá en la pestaña del navegador -->
+
+<link rel="stylesheet" href="css/estils.css"> <!-- Enlaza la hoja de estilos externa -->
+
+</head> <!-- Fin de la cabecera -->
+
+<body class="home-ocean"> <!-- Empieza el cuerpo de la página, con clase para estilos específicos -->
+
+<header> <!-- Sección de encabezado de la página -->
+
+<img src="imatges/orca.jpg" class="capcalera-infantil" alt="Orcas divertides"> <!-- Imagen de encabezado con clase y texto alternativo -->
+
+</header> <!-- Fin del encabezado -->
+
+<main class="caixa-benvinguda"> <!-- Contenido principal de la página, con clase para estilo -->
+
+<h1 class="titol-animat">🌊 Benvinguts a l'Oceà! 🌊</h1> <!-- Título principal con clase de animación -->
+
+<p class="text-infantil">Explora el món de les orques i els seus amics de sota el mar. Tria una bombolla per començar!</p> <!-- Párrafo de bienvenida con estilo infantil -->
+
+<div class="contenidor-botons"> <!-- Contenedor para los botones de navegación -->
+
+<a href="pagines/enllacos.html" class="boto-burbuja">Enllaços 🦀</a> <!-- Enlace a la página de enlaces, con estilo de burbuja -->
+
+<a href="pagines/taules.html" class="boto-burbuja">Taules 🐠</a> <!-- Enlace a la página de tablas, con estilo de burbuja -->
+
+<a href="pagines/javascript.html" class="boto-burbuja">Sorpresa! 🐙</a> <!-- Enlace a una página sorpresa, con estilo de burbuja -->
+
+</div> <!-- Fin del contenedor de botones -->
+
+</main> <!-- Fin del contenido principal -->
+
+<div class="burbujas-decoracion"> <!-- Contenedor de burbujas decorativas -->
+
+<span></span><span></span><span></span><span></span> <!-- Cada span representa una burbuja que se animará con CSS -->
+
+</div> <!-- Fin del contenedor de burbujas -->
+
+</body> <!-- Fin del cuerpo de la página -->
+
+</html> <!-- Fin del documento HTML -->
